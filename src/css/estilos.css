@@ -1,10 +1,10 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
 }
 
-main:after{
+main:after {
     content: '';
     min-height: 100vh;
     width: 100vw;
@@ -15,7 +15,7 @@ main:after{
 	z-index: -1;
 }
 
-.conteudo{
+.conteudo {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -23,26 +23,26 @@ main:after{
 }
 
 
-.informacoes .logo{
+.informacoes .logo {
     max-width: 350px;
     filter: invert(1);
     margin-bottom: 80px;
 }
 
-.informacoes .descricao{
+.informacoes .descricao {
     width: 49%;
     font-size: 24px;
     color: #ffffff;
     line-height: 30px;
 }
 
-.botoes-carrossel{
+.botoes-carrossel {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.botoes-carrossel .botao{
+.botoes-carrossel .botao {
     background-color: white;
     width: 15px;
     height: 15px;
@@ -52,11 +52,11 @@ main:after{
     border-color: #ffffff;
 }
 
-.botoes-carrossel .botao.selecionado{
+.botoes-carrossel .botao.selecionado {
     background-color: darkgreen;
 }
 
-.menu-lateral{
+.menu-lateral {
     position: fixed;
     top: 0;
     right: 0;
@@ -67,24 +67,24 @@ main:after{
     min-height: 100vh;
 }
 
-.menu-lateral ul{
+.menu-lateral ul {
     display: flex;
     flex-direction: column;
     gap: 15px;
 
 }
 
-.menu-lateral .icone{
+.menu-lateral .icone {
     width: 30px;
     filter: invert(1);
     transition: 0.3s ease-in-out;
 }
 
-.menu-lateral .icone:hover{
+.menu-lateral .icone:hover {
     transform: scale(1.2);
 }
 
-.carrossel{
+.carrossel {
     position: fixed;
     top: 0;
     left: 0;
@@ -92,7 +92,7 @@ main:after{
     z-index: -1;
 }
 
-.carrossel .imagem{
+.carrossel .imagem {
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -101,11 +101,11 @@ main:after{
 
 }
 
-.carrossel .imagem.ativa{
+.carrossel .imagem.ativa {
     display: block;
 }
 
-@keyframes mudarImagem{
+@keyframes mudarImagem {
     from{
         opacity: 0.85;
     }
